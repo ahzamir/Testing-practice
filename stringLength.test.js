@@ -9,7 +9,7 @@ test('string2', () => {
 });
 
 test('reverseString', () => {
-  expect(reverseString('hello')).toBe('olleh');
+  expect(reverseString('ahmad')).toBe('damha');
 })
 
 describe('calculators', () => {
@@ -23,6 +23,10 @@ describe('calculators', () => {
 
   test('multiply', () => {
     expect(calculators.numMultiply(2, 4)).toBe(8);
+  })
+
+  test  ('divid', () => {
+    expect(calculators.numDided(8, 2)).toBe(4);
   })
 });
 

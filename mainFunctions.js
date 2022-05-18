@@ -22,7 +22,8 @@ function capitalizeString(string) {
 const calculators = {
   numAdd: add,
   numSubstract: substract,
-  numMultiply: multiply
+  numMultiply: multiply,
+  numDided: divid,
 }
 function add(a, b) {
   let num = (a + b);
@@ -35,6 +36,11 @@ function substract(a, b) {
 function multiply(a, b) {
   let num = (a, b);
   num = (a * b);
+  return num;
+}
+function divid(a, b) {
+  let num = (a, b);
+  num = (a / b);
   return num;
 }
 
